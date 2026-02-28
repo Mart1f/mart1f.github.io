@@ -1,1 +1,265 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Martin F. Bermudez Romero | Electronics • Electric • Embedded • Simulation • AI</title>
+  <meta name="description" content="Portfolio of projects in electronics, embedded systems, PCB design, IoT, embedded systems, software development, and AI models." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">MB</div>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
 
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Martin Bermudez</h1>
+        <p class="subtitle">Electronics engineer COL • Ingénieur généraliste FR • Electrical technician COL </p>
+        <p class="desc">
+          I’m an Electronics Engineer from Universidad Distrital (Bogotá), currently training to become a generalist
+          engineer in France. I focus on electronics design, simulation, embedded development, and deploying AI models
+          on constrained devices—turning ideas into real, working systems.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="https://github.com/mart1f" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" href="#" target="_blank" rel="noreferrer">CV (PDF)</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="pill">Open to internships — Starting April 2026</div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">Electronics</div>
+            <div class="stat-label">Design • Simulation • Validation</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Embedded</div>
+            <div class="stat-label">ARM Cortex-M • RTOS</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Edge AI</div>
+            <div class="stat-label">TFLite Micro • Optimization</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="muted">Selected work showcasing technical depth and real-world implementation.</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>On-device Voice Recognition (TFLite Micro)</h3>
+          <p class="muted">EFR32 • ARM Cortex-M33 • RTOS • TensorFlow Lite Micro</p>
+          <p>
+            Keyword/command recognition on microcontroller with on-device inference and peripheral control (LED feedback).
+          </p>
+          <div class="tags">
+            <span>Embedded</span><span>Edge AI</span><span>RTOS</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>ChatBox (Android)</h3>
+          <p class="muted">Android Studio • Kotlin • Team Git workflow</p>
+          <p>
+            Application of communication by proximity and broadcast between Android Devices, for purposes of anonymous social interaction, security and emergency
+          </p>
+          <div class="tags">
+            <span>Kotlin</span><span>Android</span><span>Git</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo APK</a>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Power Bike</h3>
+          <p class="muted">Electronic Simulation • PCB Design/Test • Signal Conditioning • Wireless Data Communication</p>
+          <p>
+            This repository includes code for an energy-generating bike system. It uses a Raspberry Pi 4 to display RPM, current, and power; one ESP32 to send sensor data via Bluetooth and broadcast; and another ESP32 to show pedal power on LEDs using MAC address broadcast.
+          </p>
+          <div class="tags">
+            <span>Multisum</span><span>Altium Designer</span><span>ESP32 Broadcast Communication</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Video Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        
+
+        <article class="card">
+          <h3>EcoBoatTwin (Digital Twin / TCO Model)</h3>
+          <p class="muted">Python • CAPEX/OPEX modeling • Scenario analysis</p>
+          <p>
+            Modular Total Cost of Ownership (TCO) calculator for trucks and ships, enabling lifecycle cost analysis across technologies such as diesel and electric powertrains.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Modeling</span><span>Data</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+  <h2>Technical Skills</h2>
+
+  <div class="skills">
+
+    <div class="skill">
+      <h4>Electronics & Hardware Design</h4>
+      <p class="muted">
+        Analog & digital circuit design, system validation, prototyping, signal analysis,
+        Multisim, Proteus, PCB design (Altium), hardware integration and testing.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Embedded Systems</h4>
+      <p class="muted">
+        C/C++, ARM Cortex-M (STM32, EFR32, ESP32), interrupts, DMA, UART/SPI/I2C,
+        RTOS (FreeRTOS, Micrium), peripheral control, firmware architecture.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Control & System Analysis</h4>
+      <p class="muted">
+        Control systems modeling, MATLAB/Simulink simulation, dynamic system analysis,
+        stability evaluation, transfer functions, system identification.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Artificial Intelligence & Computer Vision</h4>
+      <p class="muted">
+        CNNs, YOLO, ML models, PyTorch, TensorFlow, TensorFlow Lite Micro,
+        Edge Impulse deployment, quantization (INT8), on-device inference.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>IoT & Communication Protocols</h4>
+      <p class="muted">
+        IoT architectures, RPL routing, IPv6 routing headers, TCP/IP stack,
+        OSI model layers, MQTT concepts, secure data transmission.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Telecommunications & 4G/5G Analysis</h4>
+      <p class="muted">
+        LTE & 5G fundamentals, NAS signaling, PDU session establishment,
+        protocol layer analysis, Xirio tools, RF and spectrum evaluation concepts.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Cybersecurity for IoT</h4>
+      <p class="muted">
+        AES encryption, hash functions (SHA), key management basics,
+        secure firmware concepts, authentication & integrity in IoT systems.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Automation & Industrial Systems</h4>
+      <p class="muted">
+        PLC fundamentals, industrial communication basics,
+        Factory I/O & Auomation Studio simulation, electrical system modeling.
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4>Mechanical & Product Design</h4>
+      <p class="muted">
+        SolidWorks, Fusion 360, mechanical modeling, enclosure design,
+        CAD-based prototyping, 3D design & printing.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+    <section id="about" class="section">
+  <h2>About</h2>
+  <p class="desc">
+    I am an Electronics Engineer from Universidad Distrital (Bogotá), and currently an international student 
+    in France at IMT Atlantique, I am trilingual, fluent in English, French, and Spanish, and comfortable working 
+    in international and multicultural environments, training to become a generalist engineer with a strong 
+    specialization in wireless communications and embedded systems.
+  </p>
+
+  <p class="desc">
+    My academic and project experience combines hardware design, system simulation, and real-world implementation.
+    I have worked on control systems analysis using MATLAB/Simulink, electronic circuit design and PCB development
+    (Altium, Proteus, Multisim), embedded firmware development on ARM Cortex-M platforms, and RTOS-based architectures.
+  </p>
+
+  <p class="desc">
+    I am particularly interested in intelligent systems at the edge — deploying AI models such as CNNs and computer
+    vision pipelines (YOLO) using PyTorch, TensorFlow, and TensorFlow Lite Micro. I have explored model optimization,
+    quantization, and on-device inference using platforms like Edge Impulse.
+  </p>
+
+  <p class="desc">
+    My interests also extend to IoT architectures and telecommunications, including TCP/IP and OSI layers,
+    RPL routing, 4G/5G protocol fundamentals, PDU session analysis, and secure communication design.
+    I have studied cybersecurity concepts applied to IoT systems, including AES encryption,
+    hash functions, authentication, and secure firmware principles.
+  </p>
+
+  <p class="desc">
+    Beyond software and electronics, I have experience in automation fundamentals, PLC concepts,
+    power system simulation (Factory I/O, Automation Studio), and mechanical design using SolidWorks and Fusion 360.
+  </p>
+
+  <p class="desc">
+    I am motivated by interdisciplinary engineering challenges where hardware, software,
+    communication systems, and artificial intelligence converge to create practical,
+    efficient, and scalable solutions.
+  </p>
+</section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact">
+        <a class="btn" href="mailto:martin.bermudez-romero@imt-atlantique.net">Email</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/mart1b/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/mart1f" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Martin Bermudez</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
